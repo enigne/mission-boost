@@ -1,0 +1,1 @@
+var e=`mission-boost-production`,t=`mission-boost-production-command`;function n(e){if(!e||typeof e!=`object`)return!1;let t=e;return typeof t.id==`string`?t.type===`reset`?!0:t.type===`blackout`?typeof t.enabled==`boolean`:t.type===`cue`&&Number.isInteger(t.cue)&&t.cue>=1&&t.cue<=7:!1}export{t as n,n as r,e as t};
